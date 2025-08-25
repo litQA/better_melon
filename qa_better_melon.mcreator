@@ -1,0 +1,345 @@
+{
+  "mod_elements": [
+    {
+      "name": "GlisteringMelonBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glistering_melon_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qa_better_melon/items/glistering_melon_block.json",
+          "src/main/resources/assets/qa_better_melon/models/item/glistering_melon_block.json",
+          "src/main/resources/assets/qa_better_melon/models/block/glistering_melon_block.json",
+          "src/main/java/net/qamelontweaks/block/GlisteringMelonBlockBlock.java",
+          "src/main/resources/assets/qa_better_melon/blockstates/glistering_melon_block.json"
+        ]
+      }
+    },
+    {
+      "name": "GlisteringMelonPieceToBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glistering_melon_piece_to_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qa_better_melon/advancement/recipes/glistering_melon_piece_to_block.json",
+          "src/main/resources/data/qa_better_melon/recipe/glistering_melon_piece_to_block.json"
+        ]
+      }
+    },
+    {
+      "name": "GlisteringMelonBlockToPiece",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glistering_melon_block_to_piece",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qa_better_melon/recipe/glistering_melon_block_to_piece.json",
+          "src/main/resources/data/qa_better_melon/advancement/recipes/glistering_melon_block_to_piece.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonBlockTooPiece",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_block_too_piece",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qa_better_melon/advancement/recipes/melon_block_too_piece.json",
+          "src/main/resources/data/qa_better_melon/recipe/melon_block_too_piece.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonBlockToGlistering",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_block_to_glistering",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qa_better_melon/advancement/recipes/melon_block_to_glistering.json",
+          "src/main/resources/data/qa_better_melon/recipe/melon_block_to_glistering.json"
+        ]
+      }
+    },
+    {
+      "name": "GlisteringMelonblockLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glistering_melonblock_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qa_better_melon/loot_table/blocks/glistering_melon_block.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonBlock1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_block_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qa_better_melon/loot_table/blocks/melon_block_1.json",
+          "src/main/java/net/qamelontweaks/block/MelonBlock1Block.java",
+          "src/main/resources/assets/qa_better_melon/blockstates/melon_block_1.json",
+          "src/main/resources/assets/qa_better_melon/models/block/melon_block_1.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonBlockHalf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_block_half",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qa_better_melon/blockstates/melon_block_half.json",
+          "src/main/java/net/qamelontweaks/block/MelonBlockHalfBlock.java",
+          "src/main/resources/data/qa_better_melon/loot_table/blocks/melon_block_half.json",
+          "src/main/resources/assets/qa_better_melon/models/block/melon_block_half.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonBlockQuarter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_block_quarter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qa_better_melon/loot_table/blocks/melon_block_quarter.json",
+          "src/main/java/net/qamelontweaks/block/MelonBlockQuarterBlock.java",
+          "src/main/resources/assets/qa_better_melon/models/block/melon_block_quarter.json",
+          "src/main/resources/assets/qa_better_melon/blockstates/melon_block_quarter.json"
+        ]
+      }
+    },
+    {
+      "name": "EatMelonBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eat_melon_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/qamelontweaks/procedures/EatMelonBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GlisteringMelonBlock1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glistering_melon_block_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qa_better_melon/models/block/glistering_melon_block_1.json",
+          "src/main/java/net/qamelontweaks/block/GlisteringMelonBlock1Block.java",
+          "src/main/resources/data/qa_better_melon/loot_table/blocks/glistering_melon_block_1.json",
+          "src/main/resources/assets/qa_better_melon/blockstates/glistering_melon_block_1.json"
+        ]
+      }
+    },
+    {
+      "name": "GlisteringMelonBlockHalf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glistering_melon_block_half",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qa_better_melon/models/block/glistering_melon_block_half.json",
+          "src/main/resources/data/qa_better_melon/loot_table/blocks/glistering_melon_block_half.json",
+          "src/main/java/net/qamelontweaks/block/GlisteringMelonBlockHalfBlock.java",
+          "src/main/resources/assets/qa_better_melon/blockstates/glistering_melon_block_half.json"
+        ]
+      }
+    },
+    {
+      "name": "GlisteringMelonBlockQuarter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glistering_melon_block_quarter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qa_better_melon/models/block/glistering_melon_block_quarter.json",
+          "src/main/resources/data/qa_better_melon/loot_table/blocks/glistering_melon_block_quarter.json",
+          "src/main/resources/assets/qa_better_melon/blockstates/glistering_melon_block_quarter.json",
+          "src/main/java/net/qamelontweaks/block/GlisteringMelonBlockQuarterBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "EatGlisteringMelonBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eat_glistering_melon_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/qamelontweaks/procedures/EatGlisteringMelonBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RightClickMelonBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_click_melon_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/qamelontweaks/procedures/RightClickMelonBlockProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.qa_better_melon.glistering_melon_block": "Glistering melon",
+      "item.qa_better_melon.melon_block_1": "Melon",
+      "item.qa_better_melon.melon_block_half": "Melon",
+      "item.qa_better_melon.melon_block_quarter": "Melon",
+      "item.qa_better_melon.glistering_melon_block_1": "Glistering melon",
+      "item.qa_better_melon.glistering_melon_block_half": "Glistering melon",
+      "item.qa_better_melon.glistering_melon_block_quarter": "Glistering melon"
+    },
+    "zh_cn": {
+      "item.qa_better_melon.glistering_melon_block": "闪烁的西瓜",
+      "item.qa_better_melon.melon_block_1": "西瓜",
+      "item.qa_better_melon.melon_block_half": "西瓜",
+      "item.qa_better_melon.melon_block_quarter": "西瓜",
+      "item.qa_better_melon.glistering_melon_block_1": "闪烁的西瓜",
+      "item.qa_better_melon.glistering_melon_block_half": "闪烁的西瓜",
+      "item.qa_better_melon.glistering_melon_block_quarter": "闪烁的西瓜"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/qamelontweaks/init/QaBetterMelonModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/qamelontweaks/QaBetterMelonMod.java",
+      "src/main/java/net/qamelontweaks/init/QaBetterMelonModBlocks.java",
+      "src/main/java/net/qamelontweaks/init/QaBetterMelonModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "qa_better_melon",
+    "modName": "Better melon",
+    "version": "1.1.1218",
+    "description": "This mod enhances the vanilla watermelon function and introduces the \"Glistering melon block\".",
+    "author": "LitQA",
+    "websiteURL": "https://modrinth.com/mod/qa-melon-tweaks",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "LitQA",
+    "modElementsPackage": "net.qamelontweaks"
+  },
+  "mcreatorVersion": 202500333716
+}

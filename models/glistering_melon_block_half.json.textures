@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "glistering_melon_block_half_texture"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "qa_better_melon:blocks/glistering_melon_block_quarter",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glistering_melon_slice"
+        }
+      ]
+    }
+  ]
+}

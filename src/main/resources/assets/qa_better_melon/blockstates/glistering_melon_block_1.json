@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "qa_better_melon:block/glistering_melon_block_1"
+    },
+    "facing=east": {
+      "model": "qa_better_melon:block/glistering_melon_block_1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "qa_better_melon:block/glistering_melon_block_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "qa_better_melon:block/glistering_melon_block_1",
+      "y": 270
+    }
+  }
+}
