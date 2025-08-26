@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "qa_better_melon:glistering_melon_block"
+  },
+  "result": {
+    "id": "minecraft:glistering_melon_slice",
+    "count": 9
+  }
+}

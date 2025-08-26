@@ -1,0 +1,9 @@
+{
+  "parent": "qa_better_melon:custom/melon_block1",
+  "textures": {
+    "all": "qa_better_melon:block/melon_texture-1",
+    "particle": "qa_better_melon:block/melon_texture-1",
+    "0": "qa_better_melon:block/melon_texture-1"
+  },
+  "render_type": "solid"
+}

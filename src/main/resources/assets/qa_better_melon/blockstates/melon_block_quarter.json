@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "qa_better_melon:block/melon_block_quarter"
+    },
+    "facing=east": {
+      "model": "qa_better_melon:block/melon_block_quarter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "qa_better_melon:block/melon_block_quarter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "qa_better_melon:block/melon_block_quarter",
+      "y": 270
+    }
+  }
+}

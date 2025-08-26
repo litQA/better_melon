@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "qa_better_melon:block/top",
+    "up": "qa_better_melon:block/top",
+    "north": "qa_better_melon:block/side",
+    "east": "qa_better_melon:block/side",
+    "south": "qa_better_melon:block/side",
+    "west": "qa_better_melon:block/side",
+    "particle": "qa_better_melon:block/top"
+  },
+  "render_type": "solid"
+}

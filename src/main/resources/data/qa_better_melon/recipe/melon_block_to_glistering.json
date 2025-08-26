@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:gold_ingot",
+    "b": "minecraft:melon"
+  },
+  "result": {
+    "id": "qa_better_melon:glistering_melon_block",
+    "count": 1
+  }
+}

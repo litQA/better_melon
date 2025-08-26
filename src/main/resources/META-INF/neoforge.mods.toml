@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT License"
+
+[[mods]]
+modId="qa_better_melon"
+version="1.1.1218"
+displayName="Better melon"
+displayURL="https://modrinth.com/mod/qa-melon-tweaks"
+logoFile="logo.png"
+credits="LitQA"
+authors="LitQA"
+description="This mod enhances the vanilla watermelon function and introduces the \"Glistering melon block\"."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.qa_better_melon]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.8.31,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.qa_better_melon]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.8]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

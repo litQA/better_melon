@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "melon_block_quarter_texture"
+      },
+      "name": "default"
+    }
+  }
+}
